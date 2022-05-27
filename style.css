@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html, body{
+    background-color: darkgray;
+    min-height: 100vh;
+
+}
+header{
+    background-color: black;
+    color: white;
+    min-height: 50px;
+    text-align: center;
+    position: sticky;
+    top:0vh;
+}
+header > h1{
+    padding: 20px;
+    font-variant: small-caps;
+    font-size: 5vw;
+
+}
+header > p{
+    padding-bottom: 20px;
+}
+header > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    font-family: sans-serif;
+}
+header > p > a:hover{
+    text-decoration: underline;
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 20px;
+    line-height: 60px;
+    font-size: 30px;
+
+    box-shadow: 4px 5px 15px black;
+    
+
+}
+section.imagem > p{
+    display: inline-block;
+    background-color:#474343a3;
+    color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+
+    padding: 5px;
+
+    border-radius: 5px;
+
+    text-shadow: 5px 5px 5px black;
+}
+section.imagem{
+    background-image: url('imagens/background001.jpg');
+    background-color:rgb(96, 90, 90);
+    background-size: cover;
+    background-position: 100% 100%;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+
+
+}
+section.normal{
+    background-color: white;
+}
+section.normal > p{
+    background-color: white;
+    font-family: 'Lobster', cursive;
+    font-weight: normal;
+    padding: 10px;
+}
+#img2{
+    background-image: url('imagens/background002.jpg');
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+footer > p > a:hover{
+    text-decoration: underline;
+}
