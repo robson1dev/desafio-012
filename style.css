@@ -65,7 +65,7 @@ section.imagem{
     background-image: url('imagens/background001.jpg');
     background-color:rgb(96, 90, 90);
     background-size: cover;
-    background-position: 100% 100%;
+    background-position: right center;
     background-attachment: fixed;
     background-repeat: repeat-y;
 
